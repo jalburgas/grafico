@@ -1,0 +1,10 @@
+
+
+-- 2. Insertar exactamente 6 registros nuevos
+INSERT INTO ventas (mes, monto) VALUES 
+('Enero', 1500.50),
+('Febrero', 2300.00),
+('Marzo', 1800.75),
+('Abril', 3200.00),
+('Mayo', 2700.25),
+('Junio', 4100.00);
