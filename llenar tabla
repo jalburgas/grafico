@@ -1,6 +1,17 @@
+-- 1. Crear la base de datos (si no existe)
+CREATE DATABASE IF NOT EXISTS sistema_grafico CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
+-- 2. Seleccionar la base de datos a utilizar
+USE sistema_grafico;
 
--- 2. Insertar exactamente 6 registros nuevos
+-- 3. Crear la tabla 'ventas' (si no existe)
+CREATE TABLE IF NOT EXISTS ventas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    mes VARCHAR(50) NOT NULL,
+    monto DECIMAL(10,2) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- 4. Insertar los 6 registros iniciales de prueba
 INSERT INTO ventas (mes, monto) VALUES 
 ('Enero', 1500.50),
 ('Febrero', 2300.00),
