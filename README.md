@@ -11,3 +11,5 @@ Busca tu archivo php.ini:
 
     El punto y coma al inicio de una línea en php.ini significa que está comentada (desactivada). Debes borrar el punto y coma para que quede así:
 ;extension=gd
+<img width="626" height="582" alt="imagen" src="https://github.com/user-attachments/assets/644d38e7-0c9c-4068-8593-7f1fc12b53a3" />
+
